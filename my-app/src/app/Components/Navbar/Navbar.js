@@ -90,7 +90,7 @@ const Navbar = () => {
               <Scroll
                 className='nav-scroll-links'
                 activeClass="Twelve"
-                to="news"
+                to="seven"
                 spy={true}
                 smooth={true}
                 offset={-60}
@@ -103,7 +103,7 @@ const Navbar = () => {
               <Scroll
                 className='nav-scroll-links'
                 activeClass="active"
-                to="ten"
+                to="eight"
                 spy={true}
                 smooth={true}
                 offset={-60}

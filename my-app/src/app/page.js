@@ -24,9 +24,6 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 
 const page = () => {
-
-
-
     const [expandedQuestions, setExpandedQuestions] = useState([])
     
     const toggleAnswer = (index) => {
@@ -43,8 +40,6 @@ const page = () => {
             behavior: "smooth"
         })
     }
-
-
   return (
 
      <div className="HomeComponent">
@@ -72,11 +67,18 @@ const page = () => {
                         <h1>Student Activity Center</h1>
                         <p className="animate-text">Empowering Tomorrow's Leaders Today</p>
                     </div>
+
                     <div className="hero-explore" onClick={handleExplore}>
                         <p>Explore SAC</p> 
                     </div>
+
+                  
                 </div>
             </div>
+
+            {/* Back to top section */}
+
+          
 
               {/* Section three starts here */}
 
@@ -156,9 +158,11 @@ const page = () => {
                             </div>
                         </div>
                         <div className="three-three-two">
-                             
+                        <div className='three-three-two-in'>
+                    <button className='back-to-top' id='hero'>Back to top</button>
+                  </div>
+                      </div>
                         </div>
-                    </div>
                     <div className="three-four">
                         <div className="three-four-in">
 
@@ -263,7 +267,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> 
             
 
           {/* Section four starts here */}
