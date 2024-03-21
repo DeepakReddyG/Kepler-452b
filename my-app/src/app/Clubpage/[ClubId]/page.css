@@ -80,6 +80,13 @@
 }
 .club-page-in-one-one {
     width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.club-page-in-one-one img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
 }
 .club-page-in-one-two {
     width: 50%;
